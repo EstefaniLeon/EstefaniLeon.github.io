@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Estefani León Osorio | Portfolio Personal</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Estefani Leon Osorio">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Estefani Leon Osorio | Portfolio Personal">
+  <meta property="og:description" content="Estefani Leon Osorio - Portfolio Personal">
+  <meta property="og:url" content="https://estefanileon.github.io/Portfolio-Personal/">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/EstefaniLeon/Portfolio-Personal/main/assets/readme/banner.png">
+  <meta property="og:image:alt" content="Banner">
+  <meta property="og:image:width" content="1880">
+  <meta property="og:image:height" content="939">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@Esleos1">
+  <meta name="twitter:title" content="Estefani Leon Osorio | Portfolio Personal">
+  <meta name="twitter:description" content="Estefani Leon Osorio - Portfolio Personal">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/EstefaniLeon/Portfolio-Personal/main/assets/readme/banner.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/assets/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=DM+Serif+Display&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Wow CSS -->
+  <link rel="preload" as="style" href="./css/animate.min.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+
+  <!-- CSS -->
+  <link rel="preload" as="style" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- Scroll to Top -->
+  <a href="#" aria-label="go up">
+    <div class="scrollToTop-Btn">
+      <i class="ri-arrow-up-s-line"></i>
+    </div>
+  </a>
+
+  <!--===============================
+  HEADER & NAV 
+  ================================-->
+
+  <header>
+
+    <div class="container">
+      <nav>
+        <a href="./index.html">
+          <h2 class="nav-logo">Estefani León Osorio</h2>
+        </a>
+
+        <div class="navbar">
+          <div class="heading-navbar">
+            <div class="networks">
+              <a href="https://twitter.com/Esleos1" target="_blank" aria-label="Twitter">
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a href="mailto:estefanileonosorio2021@outlook.com" aria-label="Email">
+                <i class="ri-mail-fill"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/estefani-l-34a56a244/" target="_blank" aria-label="Linkedin">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a href="https://github.com/EstefaniLeon" target="_blank" aria-label="Github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+            <i class="ri-close-line close-menu"></i>
+          </div>
+
+          <a href="#" class="nav-link" aria-label="go home">Home</a>
+          <a href="#about" class="nav-link">About Me</a>
+          <a href="#skills" class="nav-link">Skills & Hobbies</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <button class="cv" id="cv">CV</button>
+        </div>
+
+        <img src="./assets/svg/menu-line.svg" alt="Menu" class="open-menu">
+      </nav>
+    </div>
+  </header>
+
+  <!--====== MODAL CV ======-->
+  <div class="modal" id="modal-cv">
+    <div class="box-cv">
+      <p>Would you like to download my CV?</p>
+      <div class="buttonsCV">
+        <button class="close-modal-cv" id="close-modal-cv">Not now.</button>
+        <a href="/download/EstefaniLeon_Curriculum.pdf" download class="download-cv" id="download-cv">
+          Download
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--===============================
+  MAIN 
+  ================================-->
+
+  <main>
+
+    <!--===== HOME =====-->
+    <section class="section home" id="home">
+
+      <div class="container">
+
+        <div class="col-1">
+          <h1>I am Estefani León Osorio.<br> <span>Junior frontend developer</span></h1>
+          <p>Social communicator and graduate journalist</p>
+          <a href="#about">Show more</a>
+        </div>
+
+        <div class="col-2">
+          <picture>
+            <source srcset="./assets/img/home-pic-1.avif" type="image/avif">
+            <source srcset="./assets/img/home-pic-1.webp" type="image/webp">
+            <img src="./assets/img/home-pic-1.jpg" alt="Profile Image">
+          </picture>
+        </div>
+      </div>
+
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+
+      <div class="container wow fadeIn" data-wow-delay=".2s">
+
+        <h2 class="title-section">About Me</h2>
+        <div class="line"></div>
+
+        <div class="about-row">
+          <div class="about-card">
+            <img src="./assets/svg/globe.svg" alt="Icono" class="globe">
+            <p>
+              As someone who has recently completed a certificate in Frontend Development, I'm excited to apply my newly acquired skills and knowledge to a challenging position as a Junior Frontend Developer.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <img src="./assets/svg/code.svg" alt="Icono">
+            <p>
+              In my previous roles, I honed my communication skills through interactions with customers and team members. I also developed my problem-solving skills by identifying and addressing issues and concerns that arose. These skills are essential to frontend development, where clear communication and problem-solving are critical for success.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <img src="./assets/svg/graph.svg" alt="Icono" class="graph">
+            <p>
+              I'm eager to bring my enthusiasm, dedication, and transferable skills to a new challenge in the field of frontend development. I look forward to discussing how my skills and experience can contribute to the success of your organization.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--===== SKILLS & HOBBIES =====-->
+    <section class="skills & hobbies section" id="skills">
+
+      <div class="container wow fadeIn" data-wow-delay=".2s">
+        <h2 class="title-section">Skills & Hobbies</h2>
+        <div class="line"></div>
+
+        <div class="skills-row">
+
+          <div class="skill">
+            <picture>
+              <source srcset="./assets/img/project-5.avif" type="image/avif">
+              <source srcset="./assets/img/project-5.webp" type="image/webp">
+              <img src="./assets/img/project-5.jpg" alt="Soft Skills">
+            </picture>
+            <div class="box-content">
+              <h3>Soft Skills</h3>
+              <p class="p1">
+                I try to bring a wealth of experience and strong interpersonal abilities to the table. I am a skilled communicator with a deep understanding of cultural nuances and a talent for setting and achieving goals. I own an admirable resilience, independence, and empathy, coupled with unwavering integrity and a natural inclination towards assertiveness.
+              </p>
+              <p class="p2">
+                Soft Skills:
+              </p>
+              <div class="box">
+                <span>Communication Skills</span>
+                <span>Empathy</span>
+                <span>Cultural Competence</span>
+                <span>Goal Setting</span>
+                <span>Resilience</span>
+                <span>Integrity</span>
+                <span>Independence</span>
+                <span>Compassion</span>
+                <span>Assertiveness</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <picture>
+              <source srcset="./assets/img/project-4.avif" type="image/avif">
+              <source srcset="./assets/img/project-4.webp" type="image/webp">
+              <img src="./assets/img/project-4.jpg" alt="Hard Skills">
+            </picture>
+            <div class="box-content">
+              <h3>Hard Skills</h3>
+              <p class="p1">
+                Aspiring Junior Frontend Developer with a strong passion for coding and web development. Skilled in HTML, CSS, JavaScript, and React. Currently I continue to expand my knowledge in Platzi and Alura. Actively working on personal and freelance projects to further develop skills.
+              </p>
+              <p class="p2">
+                Hard Skills:
+              </p>
+              <div class="box">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Javascript</span>
+                <span>Validation Form</span>
+                <span>Responsive Design</span>
+                <span>Experience with responsive web design principles</span>
+                <span>Familiarity with Git and Github</span>
+                <span>Strong attention to detail</span>
+                <span>Knowledge of React.js</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <picture>
+              <source srcset="./assets/img/project-3.avif" type="image/avif">
+              <source srcset="./assets/img/project-3.webp" type="image/webp">
+              <img src="./assets/img/project-3.jpg" alt="Hobbies">
+            </picture>
+            <div class="box-content">
+              <h3>Hobbies</h3>
+              <p class="p1">
+                I am a quiet person, I like a healthy environment with interesting conversations and a good overview of nature. And although I enjoy my own company I am quite sociable.
+              </p>
+              <p class="p2">
+                Hobbies:
+              </p>
+              <div class="box">
+                <span>Knitting</span>
+                <span>Reading</span>
+                <span>Gardening</span>
+                <span>Watching movies and series</span>
+                <span>Listen to music</span>
+                <span>Swimming</span>
+                <span>Cooking</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--===== EDUCATION =====-->
+    <section class="education section" id="education">
+
+      <div class="container wow fadeIn" data-wow-delay=".2s">
+
+        <h2 class="title-section">Education</h2>
+        <div class="line"></div>
+
+        <div class="education-row">
+
+          <article class="education-padding">
+            <div class="education-answer">
+              <h3 class="education-title">
+                <ul>
+                  <li>Technical Bachelor's Degree in Tourism - Institución Educativa Luis Eduardo Arias Reinel - 2009</li>
+                  <li>Auxiliary Technician in Tourist Information - Servicio Nacional de Aprendizaje SENA - 2009</li>
+                  <li>Professional in social communication and journalism - Corporación Universitaria Minuto de Dios - 2015</li>
+                </ul>
+                <img src="./assets/svg/arrow.svg" alt="arrow" class="education-img">
+              </h3>
+            </div>
+          </article>
+
+          
+
+          <article class="education-padding">
+            <div class="education-answer">
+              <h3 class="education-title">
+                <ul>
+                  <li>Design Fundamentals - Servicio Nacional de Aprendizaje SENA - 2010</li>
+                  <li>Beginner English - Servicio Nacional de Aprendizaje SENA - 2011</li>
+                  <li>Elementary English - Servicio Nacional de Aprendizaje SENA - 2011</li>
+                  <li>Operational Level Communication Techniques - Servicio Nacional de Aprendizaje SENA - 2013</li>
+                  <li>Human Resources Management - Servicio Nacional de Aprendizaje SENA - 2016</li>
+                </ul>
+                <img src="./assets/svg/arrow.svg" alt="arrow" class="education-img">
+              </h3>
+            </div>
+          </article>
+
+          <article class="education-padding">
+            <div class="education-answer">
+              <h3 class="education-title">
+                <ul>
+                  <li>International Seminar: Public Management, Control by Results and Political Leadership - Universidad de Antioquia - 2013</li>
+                  <li>Create a Lead Generation Messenger Chatbot using Chatfuel - Coursera - 2022</li>
+                </ul>
+                <img src="./assets/svg/arrow.svg" alt="arrow" class="education-img">
+              </h3>
+            </div>
+          </article>
+
+          <article class="education-padding">
+            <div class="education-answer">
+              <h3 class="education-title">
+                <ul>
+                  <li>Training Entrepreneurship G4 - ONE - Alura Latam - 2023</li>
+                  <li>Training Business Agility G4 - ONE - Alura Latam - 2023</li>
+                  <li>Training Personal Development G4 - ONE - Alura Latam - 2023</li>
+                  <li>Training Beginner in Programming G4 - ONE - Alura Latam - 2023</li>
+                  <li>Training Front End G4 - ONE - Alura Latam - 2023</li>
+                </ul>
+                <img src="./assets/svg/arrow.svg" alt="arrow" class="education-img">
+              </h3>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--===== EXPERIENCE =====-->
+    <section class="experience section" id="experience">
+
+      <div class="container wow fadeIn" data-wow-delay=".2s">
+        <h2 class="title-section">Experience</h2>
+        <div class="line"></div>
+
+        <div class="experience-row">
+
+          <div class="experience">
+            <h3 class="experience-title">Challenges</h3>
+            <p class="experience-paragraph">
+              Even though I am only one year into the study process, I have sought to take on challenges in my training by relying on sites such as devchallenges.io and the places where I am training such as Platzi and Alura Latam. Here are the links so you can see the challenges that I have ventured to do so far.
+            </p>
+            <a class="experience-btn" href="https://devchallenges.io/portfolio/EstefaniLeon ">
+              Show More <i class="ri-external-link-line"></i>
+            </a>
+          </div>
+
+          <div class="experience">
+            <h3 class="experience-title">Problem Solving</h3>
+            <p class="experience-paragraph">
+              In a self-taught way I have also pursued to nurture and improve my skills as a Front end developer. Trying mainly to focus on practicing my logical thinking and how to solve problems with it. One of the sites I've been exploring for the longest time is Hackerrank. I've had a lot of fun practicing different things there.
+            </p>
+            <a class="experience-btn" href="https://www.hackerrank.com/Esleos1">
+              Show More <i class="ri-external-link-line"></i>
+            </a>
+          </div>
+
+          <div class="experience">
+            <h3 class="experience-title">My educational background</h3>
+            <p class="experience-paragraph">
+              In addition to the self-taught motivation, the greatest and most complete of my experiences with Front end development is thanks to the training that I am currently taking. Supported by 2 platforms of knowledge that are Platzi and Alura Latam. The projects that I have been able to develop during these trainings have served me too much to have a portfolio with a strong start. The results so far are quite gratifying and I leave you the link so you can see them.
+            </p>
+            <a class="experience-btn" href="https://github.com/EstefaniLeon">
+              Show More <i class="ri-external-link-line"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+
+      <div class="container wow fadeIn" data-wow-delay=".2s">
+        <h2 class="title-section">CONTACT</h2>
+        <div class="line"></div>
+
+        <p class="sub-info">
+          It would be very interesting to talk about how we could develop a next project together.
+          You can contact me by this way, twitter, email or linkedIn.
+        </p>
+
+        <p class="sub-info">
+          I'll get back to you as soon as possible!
+        </p>
+
+        <div class="contact-row">
+
+          <div class="col-1">
+            <form class="form" id="form" autocomplete="off">
+              <div class="container-input">
+                <label class="label-input" for="input-name">Name</label>
+                <input type="text" name="name" id="input-name">
+                <p class="alert" id="alert-name">This field is required</p>
+              </div>
+              <div class="container-input">
+                <label class="label-input" for="input-email">Email</label>
+                <input type="text" name="email" id="input-email">
+                <p class="alert" id="alert-email">This field is required</p>
+              </div>
+              <div class="container-input">
+                <label class="label-input" for="textarea">Message</label>
+                <textarea name="textarea" id="textarea"></textarea>
+                <p class="alert" id="alert-message">This field is required</p>
+              </div>
+              <button type="submit" class="button-submit">Send</button>
+            </form>
+          </div>
+
+          <div class="col-2">
+            <img src="./assets/svg/analytics.svg" alt="Icono">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--====== MODAL CONTACT ======-->
+    <div class="modal" id="modal-contact">
+      <div class="box">
+        <div class="loader" id="modal-contact-loader">
+          <div class="dot-spinner">
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+          </div>
+          <h2>Sending Message...</h2>
+        </div>
+        <div class="content" id="modal-contact-success">
+          <div>
+            <img src="./assets/svg/ok.svg" alt="Ok" class="img-ok">
+          </div>
+          <h2>¡Message Sent!</h2>
+          <p>I'll get back to you as soon as I read this.</p>
+          <button class="close-modal-contact">Awesome</button>
+        </div>
+        <div class="error" id="modal-contact-error">
+          <p>Sorry, the message could not be sent. Try again later</p>
+          <button class="close-modal-contact">Ok</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!--===============================
+  FOOTER
+  ================================-->
+
+  <footer class="footer section">
+
+    <div class="container">
+      <p>Created by Estefani León Osorio</p>
+    </div>
+  </footer>
+
+  <!--===============================
+  SCRIPT 
+  ================================-->
+
+  <!-- Wow Js -->
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/wow.js"></script>
+
+  <!-- Faqs Js -->
+  <script src="./js/faqs.js"></script>
+
+  <!-- Email Js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- Main Js -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
