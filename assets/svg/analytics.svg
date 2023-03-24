@@ -1,0 +1,13 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#5c2e7e" d="m226.86,202.65l-60.72,-33.19"/>
+  <path id="svg_2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#5c2e7e" d="m264.53,195.14l46.26,-57.59"/>
+  <path id="svg_3" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#5c2e7e" d="m131.81,179.23l-45.9101,80.96"/>
+  <path id="svg_4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#191919" d="m326.47,143.07c13.835,0 25.05,-11.215 25.05,-25.05c0,-13.835 -11.215,-25.05 -25.05,-25.05c-13.835,0 -25.05,11.215 -25.05,25.05c0,13.835 11.215,25.05 25.05,25.05z"/>
+  <path id="svg_5" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#191919" d="m248.85,239.72c13.835,0 25.05,-11.215 25.05,-25.05c0,-13.835 -11.215,-25.05 -25.05,-25.05c-13.835,0 -25.05,11.215 -25.05,25.05c0,13.835 11.215,25.05 25.05,25.05z"/>
+  <path id="svg_6" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#191919" d="m144.16,182.5c13.835,0 25.05,-11.215 25.05,-25.05c0,-13.835 -11.215,-25.05 -25.05,-25.05c-13.835,0 -25.05,11.215 -25.05,25.05c0,13.835 11.215,25.05 25.05,25.05z"/>
+  <path id="svg_7" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="12" stroke="#191919" d="m73.53,307.03c13.8347,0 25.05,-11.215 25.05,-25.05c0,-13.835 -11.2153,-25.05 -25.05,-25.05c-13.8348,0 -25.05,11.215 -25.05,25.05c0,13.835 11.2152,25.05 25.05,25.05z"/>
+ </g>
+</svg>
