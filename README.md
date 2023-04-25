@@ -71,7 +71,7 @@ _To use this project you will need to clone this repository or download it to yo
 
 - [GitHub](https://github.com/EstefaniLeon)
 - [Twitter](https://twitter.com/Esleos1)
-- [LinkedIn](https://www.linkedin.com/in/estefani-leon-osorio-34a56a244/)
+- [LinkedIn](https://www.linkedin.com/in/estefani-leon-osorio/)
 
 ## Author ✒️
 
